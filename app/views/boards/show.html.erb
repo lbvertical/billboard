@@ -1,0 +1,12 @@
+<h1><%= @board.title %></h1>
+
+<ol id="board-items">
+  <% @board.songs.each do |song| %>
+    <li>
+      <span>     </span>
+      <%= song.name %>
+      <span>  -  </span>
+      <span id="artist-span"><%= Artist.find(song.artist_id).name %></span>
+    </li>
+  <% end %>
+</ol>

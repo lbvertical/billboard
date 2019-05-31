@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+
+/* {:style => 'font-size: 2em; font-weight: bold;'} */
+
+ul#horizontal-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 40px;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  padding: 8px;
+}
+
+
+h1 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p {
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 1.3em;
+}
+
+body {
+  background-color: #32B3B3;
+}
+
+ol#board-items {
+  text-transform: capitalize;
+  font-size: 1.3em;
+}
+
+span#artist-span {
+  text-transform: uppercase;
+  font-weight: bold;
+}
